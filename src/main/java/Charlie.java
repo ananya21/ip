@@ -146,7 +146,7 @@ public class Charlie {
 
     private static void handleDeadline(ArrayList<Task> taskList, String input) throws CharlieException {
         String[] parts = input.substring(9).split(" /by ");
-        if (parts.length < 2 || parts[0].trim().isEmpty()) {
+        if (parts.length < 2 || parts[0].trim().isEmpty() || parts[1].trim().isEmpty()) {
             throw new CharlieException("Sorry, the description of a deadline cannot be empty and must include a /by time.");
         }
         Deadline deadline = new Deadline(parts[0], parts[1]);
@@ -154,6 +154,7 @@ public class Charlie {
         System.out.println("Got it. I've added this task:\n  " + deadline);
         System.out.println("Now you have " + taskList.size() + " tasks in the list.");
     }
+
 
     private static void handleEvent(ArrayList<Task> taskList, String input) throws CharlieException {
         String[] parts = input.substring(6).split(" /from ");
