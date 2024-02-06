@@ -1,5 +1,5 @@
-public class DukeException extends Exception {
-    public DukeException(String message) {
+public class CharlieException extends Exception {
+    public CharlieException(String message) {
         super(message);
     }
 }
