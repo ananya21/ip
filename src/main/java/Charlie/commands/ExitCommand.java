@@ -1,8 +1,8 @@
-package commands;
+package Charlie.commands;
 
-import storage.Storage;
-import storage.TaskList;
-import ui.Ui;
+import Charlie.storage.Storage;
+import Charlie.storage.TaskList;
+import Charlie.ui.Ui;
 
 public class ExitCommand extends Command {
 

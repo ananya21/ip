@@ -1,13 +1,13 @@
-package commands;
+package Charlie.commands;
 
-import exceptions.CharlieException;
-import models.Deadline;
-import models.Event;
-import models.Task;
-import models.Todo;
-import storage.Storage;
-import storage.TaskList;
-import ui.Ui;
+import Charlie.exceptions.CharlieException;
+import Charlie.models.Deadline;
+import Charlie.models.Event;
+import Charlie.models.Task;
+import Charlie.models.Todo;
+import Charlie.storage.Storage;
+import Charlie.storage.TaskList;
+import Charlie.ui.Ui;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package ui;
+package Charlie.ui;
 
 import java.util.Scanner;
 

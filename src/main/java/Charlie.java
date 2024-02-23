@@ -1,9 +1,9 @@
-import commands.Command;
-import exceptions.CharlieException;
-import parser.Parser;
-import storage.Storage;
-import storage.TaskList;
-import ui.Ui;
+import Charlie.commands.Command;
+import Charlie.exceptions.CharlieException;
+import Charlie.parser.Parser;
+import Charlie.storage.Storage;
+import Charlie.storage.TaskList;
+import Charlie.ui.Ui;
 
 public class Charlie {
 

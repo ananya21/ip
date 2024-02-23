@@ -1,9 +1,9 @@
-package commands;
+package Charlie.commands;
 
-import exceptions.CharlieException;
-import storage.Storage;
-import storage.TaskList;
-import ui.Ui;
+import Charlie.exceptions.CharlieException;
+import Charlie.storage.Storage;
+import Charlie.storage.TaskList;
+import Charlie.ui.Ui;
 
 public abstract class Command {
 

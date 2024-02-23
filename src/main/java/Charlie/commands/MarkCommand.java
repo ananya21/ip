@@ -1,10 +1,10 @@
-package commands;
+package Charlie.commands;
 
-import exceptions.CharlieException;
-import models.Task;
-import storage.Storage;
-import storage.TaskList;
-import ui.Ui;
+import Charlie.exceptions.CharlieException;
+import Charlie.models.Task;
+import Charlie.storage.Storage;
+import Charlie.storage.TaskList;
+import Charlie.ui.Ui;
 
 public class MarkCommand extends Command {
 

@@ -1,4 +1,4 @@
-package models;
+package Charlie.models;
 
 public class Event extends Task {
     protected String startsAt;

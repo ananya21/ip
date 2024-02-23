@@ -1,4 +1,4 @@
-package models;
+package Charlie.models;
 
 public class Task {
     protected String description;

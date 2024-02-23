@@ -1,16 +1,7 @@
-package parser;
+package Charlie.parser;
 
-import commands.*;
-import exceptions.CharlieException;
-import models.Deadline;
-import models.Event;
-import models.Task;
-import models.Todo;
-
-import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
+import Charlie.commands.*;
+import Charlie.exceptions.CharlieException;
 
 public class Parser {
 

@@ -1,10 +1,10 @@
-package storage;
+package Charlie.storage;
 
-import exceptions.CharlieException;
-import models.Deadline;
-import models.Event;
-import models.Task;
-import models.Todo;
+import Charlie.exceptions.CharlieException;
+import Charlie.models.Deadline;
+import Charlie.models.Event;
+import Charlie.models.Task;
+import Charlie.models.Todo;
 
 import java.io.*;
 import java.nio.file.Files;
